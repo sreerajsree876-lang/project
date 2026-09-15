@@ -1,0 +1,201 @@
+
+<html>
+<head>
+    <title>Fashion Hub</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: white;
+        }
+
+        .container {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        
+        .navbar {
+            background-color: #202122;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 25px 50px;
+        }
+
+        .logo {
+            font-size: 38px;
+            font-weight: bold;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 45px;
+            font-size: 20px;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+         
+        .banner {
+            background-color: #f1f1f3;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .banner h1 {
+            font-size: 42px;
+            margin: 0 0 15px;
+        }
+
+        .banner p {
+            font-size: 24px;
+            color: #666;
+            margin: 0;
+        }
+
+        
+        .products-section {
+            padding: 20px 40px 70px;
+        }
+
+        .products-section h2 {
+            font-size: 28px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .products {
+            display: flex;
+            gap: 25px;
+        }
+
+        .product-card {
+            width: 25%;
+            border: 1px solid #ddd;
+            text-align: center;
+            padding-bottom: 15px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+        }
+
+        .product-card h3 {
+            font-size: 24px;
+            margin: 15px 0 10px;
+        }
+
+        .price {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .buy-btn {
+            background-color: #202122;
+            color: white;
+            border: none;
+            padding: 12px 35px;
+            font-size: 17px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .buy-btn:hover {
+            background-color: #444;
+        }
+
+        
+        .footer {
+            background-color: #202122;
+            color: white;
+            text-align: center;
+            padding: 35px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        
+        <div class="navbar">
+            <div class="logo">Fashion Hub</div>
+
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+
+    
+        <div class="banner">
+            <h1>New Fashion Collection</h1>
+            <p>Upgrade your style today</p>
+        </div>
+
+       
+        <div class="products-section">
+            <h2>Products</h2>
+
+            <div class="products">
+
+                
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500" alt="T-Shirt">
+                    <h3>T-Shirt</h3>
+                    <div class="price">₹799</div>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+
+                
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500" alt="Dress">
+                    <h3>Dress</h3>
+                    <div class="price">₹1499</div>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+
+                
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500" alt="Jacket">
+                    <h3>Jacket</h3>
+                    <div class="price">₹1999</div>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+
+                
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=500" alt="Jeans">
+                    <h3>Jeans</h3>
+                    <div class="price">₹1299</div>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+
+            </div>
+        </div>
+
+    
+        <div class="footer">
+            © 2026 Fashion Hub | Contact: fashionhub@gmail.com
+        </div>
+
+    </div>
+
+</body>
+</html>
