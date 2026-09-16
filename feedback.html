@@ -1,0 +1,112 @@
+
+<html>
+<head>
+    <title>Feedback Form</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: white;
+        }
+
+        .form {
+            width: 70%;
+            margin: 30px auto;
+            border: 1px solid lightblue;
+            padding: 25px;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: lightblue;
+            padding: 15px;
+            color: darkblue;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 20px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        .radio {
+            display: flex;
+            gap: 25px;
+            margin: 10px 0 25px;
+        }
+
+        .radio label {
+            font-weight: normal;
+        }
+
+        .radio input {
+            width: auto;
+            margin: 0 5px 0 0;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="form">
+
+    <h1>Feedback Form</h1>
+
+    <p> <center>We value your opinion. Please share your feedback with us.</p></center>
+
+    <label>Full Name</label>
+    <input type="text" placeholder="Enter your name">
+
+    <label>Email Address</label>
+    <input type="email" placeholder="Enter your email">
+
+    <label>How did you hear about us?</label>
+    <select>
+        <option>Select an option</option>
+        <option>Google</option>
+        <option>Friend</option>
+        <option>Social Media</option>
+    </select>
+
+    <label>Your Rating</label>
+
+    <div class="radio">
+        <label><input type="radio" name="rating">1</label>
+        <label><input type="radio" name="rating">2</label>
+        <label><input type="radio" name="rating">3</label>
+        <label><input type="radio" name="rating">4</label>
+        <label><input type="radio" name="rating">5</label>
+    </div>
+
+    <label>Your Feedback</label>
+    <textarea placeholder="Write your feedback here..."></textarea>
+
+    <label>Would you like to be contacted?</label>
+
+    <div class="radio">
+        <label><input type="radio" name="contact">Yes</label>
+        <label><input type="radio" name="contact">No</label>
+    </div>
+
+    <button>Submit</button>
+
+</div>
+
+</body>
+</html>
